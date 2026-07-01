@@ -1,0 +1,19 @@
+# Datasets (download with `python -m csgmcmc_jax.download`)
+data/
+*.tar.gz
+
+# Cluster run artifacts (cluster-slurm ledgers, rendered scripts, logs)
+.codex/
+
+# Saved MCMC samples / training outputs
+runs/
+*.eqx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
