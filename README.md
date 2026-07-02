@@ -22,8 +22,19 @@ algorithm and the original code goes to the authors:
 }
 ```
 
-The original project's README is preserved verbatim as
-[`README_original.md`](README_original.md).
+This repository contains **only the JAX reimplementation**. For the original PyTorch
+and MATLAB sources — the reference training scripts, the model zoo, the MATLAB toy
+experiment, and cached figures — see the original repo:
+**https://github.com/ruqizhang/csgmcmc**.
+
+### Scope of this port
+
+| ported here | not ported — see [original repo](https://github.com/ruqizhang/csgmcmc) |
+|---|---|
+| cSGLD + cSGHMC training, cyclical schedule, BMA ensemble | — |
+| ResNet18 (Equinox) | the other architectures (VGG, DenseNet, GoogLeNet, SENet, PNASNet, ResNeXt, MobileNet, …) |
+| toy 25-Gaussian demo (`toy_mog.py`) | the original MATLAB toy (`mog25.m`, `csgld.m`, `sgld.m`) + `plot_density.ipynb` |
+| CIFAR-10 / CIFAR-100 data + augmentation | — |
 
 ## Method
 
