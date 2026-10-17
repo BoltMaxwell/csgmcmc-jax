@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: csgmcmc-jax
+message: >-
+  This repository is a JAX port; the method and the original code belong to the
+  authors of the paper below. If you use this software, please cite that paper
+  (preferred-citation) and, if appropriate, the original code (references).
+type: software
+authors:
+  - family-names: Bolt
+    given-names: Maxwell
+    affiliation: Purdue University
+repository-code: https://github.com/BoltMaxwell/csgmcmc-jax
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-10-17"
+preferred-citation:
+  type: conference-paper
+  title: "Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning"
+  authors:
+    - family-names: Zhang
+      given-names: Ruqi
+    - family-names: Li
+      given-names: Chunyuan
+    - family-names: Zhang
+      given-names: Jianyi
+    - family-names: Chen
+      given-names: Changyou
+    - family-names: Wilson
+      given-names: Andrew Gordon
+  collection-title: "International Conference on Learning Representations"
+  collection-type: proceedings
+  conference:
+    name: "ICLR 2020"
+  year: 2020
+  url: "https://openreview.net/forum?id=rkeS1RVtPS"
+references:
+  - type: software
+    title: "cSG-MCMC reference implementation"
+    authors:
+      - family-names: Zhang
+        given-names: Ruqi
+      - family-names: Li
+        given-names: Chunyuan
+      - family-names: Zhang
+        given-names: Jianyi
+      - family-names: Chen
+        given-names: Changyou
+      - family-names: Wilson
+        given-names: Andrew Gordon
+    repository-code: https://github.com/ruqizhang/csgmcmc
+    notes: The upstream repository this port was made from; it carries no license.

@@ -14,11 +14,12 @@ algorithm and the original code goes to the authors:
 > [paper](https://arxiv.org/abs/1902.03932) · [original code](https://github.com/ruqizhang/csgmcmc)
 
 ```bibtex
-@article{zhang2020csgmcmc,
-  title={Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning},
-  author={Zhang, Ruqi and Li, Chunyuan and Zhang, Jianyi and Chen, Changyou and Wilson, Andrew Gordon},
-  journal={International Conference on Learning Representations},
-  year={2020}
+@inproceedings{zhang2020cyclical,
+  title     = {Cyclical Stochastic Gradient {MCMC} for {B}ayesian Deep Learning},
+  author    = {Zhang, Ruqi and Li, Chunyuan and Zhang, Jianyi and Chen, Changyou and Wilson, Andrew Gordon},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2020},
+  url       = {https://openreview.net/forum?id=rkeS1RVtPS}
 }
 ```
 
@@ -160,3 +161,10 @@ target GPU for representative numbers.
 JAX_PLATFORMS=cpu PYTHONPATH=. python tests/test_samplers.py      # fast
 JAX_PLATFORMS=cpu PYTHONPATH=. python tests/test_cifar_smoke.py   # ~1-2 min (compiles ResNet18)
 ```
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE). The upstream
+code, [ruqizhang/csgmcmc](https://github.com/ruqizhang/csgmcmc), carries no
+license of its own; this port is released with the knowledge and agreement of
+its authors.
